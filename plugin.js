@@ -10,7 +10,7 @@ function setApplicationVolume(applicationName, volumePercentage) {
 
       
 
-       const setVolumeCommand = `wpctl set-volume ${volumePercentage}%`;
+       const setVolumeCommand = `wpctl set-volume 35 ${volumePercentage}%`;
 
         console.log(`Executing command: ${setVolumeCommand}`);
 
