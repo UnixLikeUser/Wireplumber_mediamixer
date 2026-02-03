@@ -5,12 +5,12 @@ const TPClient = new TouchPortalAPI.Client();
 const pluginId = 'Wireplumber control Volume';
 
 // Define the function to set application volume
-function setApplicationVolume(applicationName, volumePercentage) {
-    const findSinkInputCommand = `pactl get-volume 35`;
+function setApplicationVolume(volumePercentage) {
+    const Volume = `wpctl get-volume 35`;
 
       
 
-       const setVolumeCommand = `wpctl set-volume 35 ${volumePercentage}%`;
+       const setVolumeCommand = `wpctl set-volume 35 ${volumePercentage}`;
 
         console.log(`Executing command: ${setVolumeCommand}`);
 
