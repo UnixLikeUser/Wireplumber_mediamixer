@@ -1,13 +1,13 @@
 {
     "sdk": 6,
     "version": 151,
-    "name": "Wireplumber mediamixer",
+    "name": "Wireplumber Mixer",
     "id": "Wireplumber Volume Control",
     "configuration": {
         "colorDark": "#6c6f73",
         "colorLight": "#3d62ad"
     },
-    "plugin_start_cmd": "node %TP_PLUGIN_FOLDER%mediamixer\/plugin.js",
+    "plugin_start_cmd": "node %TP_PLUGIN_FOLDER%Wireplumber_mediamixer\/plugin.js",
     "categories": [
         {
             "id": "com.github.orangopus.mediamixer.main",
@@ -72,6 +72,7 @@
     ]
 
 }
+
 
 
 
