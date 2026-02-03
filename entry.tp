@@ -1,5 +1,5 @@
-{
-    "sdk": 6,
+ulmbe{
+    "api": 10,
     "version": 151,
     "name": "Wireplumber Mixer",
     "id": "Wireplumber Volume Control",
@@ -10,7 +10,7 @@
     "plugin_start_cmd": "node %TP_PLUGIN_FOLDER%Wireplumber_mediamixer\/plugin.js",
     "categories": [
         {
-            "id": "com.github.orangopus.mediamixer.main",
+            "id": "Wireplumber Control Volume",
             "name": "Linux Media Mixer",
             "imagepath": "%TP_PLUGIN_FOLDER%TouchPortalMediaMixer\/icon-24.png",
             "actions": [
@@ -32,8 +32,7 @@
                             "id": "volumePercentage2",
                             "type": "slider",
                             "label": "Volume Percentage",
-                            "default": "50",
-                            "valueChoices": 0-100
+                            "value": 50
                         }
                     ]
                 }
@@ -72,6 +71,7 @@
     ]
 
 }
+
 
 
 
