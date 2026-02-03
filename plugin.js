@@ -31,8 +31,7 @@ function setApplicationVolume(applicationName, volumePercentage) {
 TPClient.on("ConnectorChange", (data) => {
     console.log("Connector event received:", data);
 
-    const applicationName = data.data.find(d => d.id === "applicationName").value;
-    const volumePercentage = data.value;
+   const volumePercentage = data.value;
 
     console.log(`Received data: volumePercentage=${volumePercentage}`)
     setApplicationVolume(volumePercentage);
