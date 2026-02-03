@@ -7,12 +7,12 @@
         "colorDark": "#6c6f73",
         "colorLight": "#3d62ad"
     },
-    "plugin_start_cmd": "node %TP_PLUGIN_FOLDER%mediamixer\\plugin.js",
+    "plugin_start_cmd": "node %TP_PLUGIN_FOLDER%mediamixer\/plugin.js",
     "categories": [
         {
             "id": "com.github.orangopus.mediamixer.main",
             "name": "Linux Media Mixer",
-            "imagepath": "%TP_PLUGIN_FOLDER%TouchPortalMediaMixer\\icon-24.png",
+            "imagepath": "%TP_PLUGIN_FOLDER%TouchPortalMediaMixer\/icon-24.png",
             "actions": [
                 {
                     "id": "com.github.orangopus.mediamixer.action.setAppVolume",
@@ -70,4 +70,5 @@
             ]
         }
     ]
+
 }
