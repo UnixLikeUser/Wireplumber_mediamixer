@@ -6,6 +6,7 @@
     "configuration": {
         "colorDark": "#6c6f73",
         "colorLight": "#3d62ad"
+    "parentCotegory":"media"
     },
     "plugin_start_cmd": "node %TP_PLUGIN_FOLDER%Wireplumber_mediamixer\/plugin.js",
     "categories": [
@@ -71,6 +72,7 @@
     ]
 
 }
+
 
 
 
