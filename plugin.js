@@ -8,8 +8,6 @@ const pluginId = 'Wireplumber control Volume';
 function setApplicationVolume(volumePercentage) {
     const Volume = `wpctl get-volume 35`;
 
-      
-
        const setVolumeCommand = `wpctl set-volume 35 ${volumePercentage}`;
 
         console.log(`Executing command: ${setVolumeCommand}`);
@@ -22,7 +20,7 @@ function setApplicationVolume(volumePercentage) {
             console.log(`Set volume of ${volumePercentage}%`);
 
             // Send a message to Touch Portal
-            console.log(`Sending connector update for ${volumePercentage}%`);
+            console.log(`Sending connector update for ${volumePercentage}`);
         });
     });
 }
